@@ -1,0 +1,12 @@
+body{
+    background: url('../resource/background-about.jpg')no-repeat;
+    background-size: cover;
+}
+.name-sec-1
+{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    padding: 0 10px;
+    border-radius: 5px;
+    /* color: transparent !important; */
+    color: white;
+}

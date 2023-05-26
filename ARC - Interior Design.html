@@ -1,0 +1,2305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="../index.css" /> -->
+    <link rel="stylesheet" href="index@.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2017/07/08/19/32/symbol-2485367_1280.png"sizes="144x144" type="image/png">
+    <link rel="stylesheet" type="image/x-icon" href="https://public-assets.envato-static.com/icons/themeforest.net/apple-touch-icon-72x72-precomposed.png" sizes="72x72">
+    <title>ARC - Interior Design, Decor, Architecture Business Template Preview - ThemeForest</title>
+    <style>
+      
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Jost&family=Montserrat:wght@200&family=Open+Sans:ital@0;1&family=Poppins&family=Tangerine&family=Tillana&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.sticky-1 {
+  position: sticky;
+  top: 0;
+  margin-top: 0;
+  z-index: 1;
+}
+.navbar-main {
+  background-color: #332e2e;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 13px;
+}
+.navbar-brand img {
+  width: 120px;
+  margin-top: 9px;
+  position: absolute;
+}
+.navbar-btn {
+  background-color: #82b440;
+  padding: 9px 17px;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  box-shadow: 0 2px 0 #6f9a37;
+  position: relative;
+}
+.navbar-btn:hover {
+  background-color: #6a943e;
+}
+/* navbar-2 */
+.navbar-2-main {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding-top: 9px;
+  padding-bottom: 5px;
+  padding-right: 6px;
+  padding-left: 14px;
+}
+.navbar-brand-2 img {
+  width: 88px;
+}
+.navbar-icons {
+  display: flex;
+}
+.navbar-icons i {
+  margin-left: -12px;
+  color: gray;
+  margin-right: 19px;
+  margin-top: 7px;
+}
+.navbar-icons i:hover {
+  color: #dbbf1c;
+  cursor: pointer;
+}
+.vertical {
+  background: gray;
+  width: 2px;
+  height: 19px;
+  border-radius: 11px;
+  margin-right: 28px;
+  margin-top: 8px;
+
+}
+ul {
+  display: none;
+}
+
+@media only screen and (min-width: 900px) {
+  .navbar-brand img {
+    width: 150px;
+    margin-top: 9px;
+  }
+
+  .navbar-main {
+    background-color: #332e2e;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 13px;
+  }
+  .navbar-2-main {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-top: 28px;
+    padding-bottom: 11px;
+    padding-right: 29px;
+    padding-left: 22px;
+  }
+
+  .navbar-brand-2 img {
+    width: 120px;
+    margin-left: 7px;
+  }
+  ul {
+    display: flex;
+    /* padding-left: 0px!important; */
+    /* padding-right: 15px!important; */
+    /* position: absolute; */
+    margin-left: 15px;
+    margin-top: 2px;
+  }
+  .home {
+    position: relative;
+    display: inline-block;
+  }
+  .home::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 0;
+    height: 3px;
+    background-color: #dbbf1c;
+    transition: width 0.5s ease;
+  }
+  .home:hover::before {
+    width: 100%;
+  }
+
+  ul a {
+    color: #555555;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 14px;
+    font-size: 14px;
+    margin-top: 5px;
+    /* margin-left: 6px; */
+    font-family: "Montserrat", sans-serif;
+  }
+  .navbar-icons {
+    background-color: white;
+  }
+  .navbar-icons i {
+    margin-left: 3px;
+    color: #555555;
+    margin-right: 33px;
+    font-size: 14px;
+  }
+  .vertical {
+    background: rgb(136, 133, 133);
+    width: 1px;
+    height: 15px;
+    border-radius: 11px;
+    margin-right: 23px;
+    margin-top: 9px;
+  }
+  #nav-2-icon {
+    display: none;
+  }
+
+  .sticky-1 {
+    position: sticky;
+    top: 0;
+    margin-top: 0;
+    z-index: 11;
+  }
+}
+
+.navbar-2-image img {
+  width: 100%;
+  height: 80vh;
+}
+.background {
+  background: url("http://templates.thememodern.com/architect/images/Slider/1.jpg")
+    no-repeat;
+  background-size: cover;
+  height: 80vh;
+  animation: heart-bol 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes heart-bol {
+  0% {
+    background: url("http://templates.thememodern.com/architect/images/Slider/2.jpg")
+      no-repeat;
+    background-size: cover;
+    height: 80vh;
+  }
+  40% {
+    background: url("http://templates.thememodern.com/architect/images/Slider/3.jpg")
+      no-repeat;
+    background-size: cover;
+    height: 80vh;
+  }
+  100% {
+    background: url("http://templates.thememodern.com/architect/images/Slider/4.jpg")
+      no-repeat;
+    background-size: cover;
+    height: 80vh;
+  }
+}
+.text-main {
+  color: white;
+  align-items: center;
+  text-align: center;
+  margin-top: 6px;
+  margin-left: 0px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 222px;
+}
+.text-main-sm {
+  font-size: 23px;
+  margin-left: 34px;
+  margin-bottom: 7px;
+}
+.text-main-bg {
+  font-size: 33px;
+  margin-bottom: 19px;
+  font-family: "Montserrat", sans-serif;
+}
+.text-main-btn-1 {
+  border-radius: 5px;
+  background: #dbbf1c;
+  padding: 8px 25px;
+  color: black;
+  /* position: relative; */
+  border-radius: 2px;
+}
+.text-main-btn-1:hover {
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  animation: text-main 1s linear;
+  animation-direction: alternate;
+}
+@keyframes text-main {
+  from {
+    background-color: rgba(15, 96, 226, 0.523);
+  }
+  to {
+    background-color: rgb(4, 11, 18);
+  }
+}
+.text-main-btn-2:hover {
+  animation: text-main 1s linear;
+
+  background-color: black;
+  color: white;
+}
+.text-main-btn-2 {
+  border-radius: 5px;
+  cursor: pointer;
+  background: white;
+  padding: 8px 16px;
+  color: black;
+  border-radius: 2px;
+}
+@media only screen and (min-width: 700px) {
+  .text-main {
+    /* position: absolute; */
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+    /* margin-left: 129px; */
+  }
+  .text-main-btn-1 {
+    background: #dbbf1c;
+    padding: 10px 47px;
+    color: black;
+    border-radius: 2px;
+  }
+  .text-main-btn-2 {
+    background: white;
+    padding: 10px 37px;
+    color: black;
+    border-radius: 2px;
+  }
+  .text-main-bg {
+    font-size: 57px;
+    margin-bottom: 19px;
+  }
+  .text-main-sm {
+    font-size: 31px;
+    margin-left: 0px;
+    margin-bottom: 7px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .text-main {
+    /* position: absolute; */
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 92px;
+    /* margin-left: 179px; */
+  }
+  .text-main-btn-1 {
+    background: #dbbf1c;
+    padding: 13px 84px;
+    color: black;
+    border-radius: 2px;
+  }
+  .text-main-btn-2 {
+    background: white;
+    padding: 14px 87px;
+    color: black;
+    border-radius: 2px;
+  }
+  .text-main-bg {
+    font-size: 69px;
+    margin-bottom: 19px;
+  }
+  .text-main-sm {
+    font-size: 38px;
+    margin-left: 0px;
+    margin-bottom: 7px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .text-main {
+    /* position: absolute; */
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 98px;
+    /* margin-left: 272px; */
+  }
+  .text-main-btn-1 {
+    background: #dbbf1c;
+    padding: 13px 84px;
+    color: black;
+    border-radius: 2px;
+  }
+  .text-main-btn-2 {
+    background: white;
+    padding: 14px 87px;
+    color: black;
+    border-radius: 2px;
+  }
+  .text-main-bg {
+    font-size: 69px;
+    margin-bottom: 19px;
+  }
+  .text-main-sm {
+    font-size: 38px;
+    margin-left: 0px;
+    margin-bottom: 7px;
+  }
+}
+
+/* sec-5 */
+.sec-5 {
+}
+.sec-5-main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.dots {
+  margin: 142px 1px 2px -2px;
+  clip-path: polygon(52% -1%, 8% 100%, 96% 98%);
+  width: 300px;
+}
+.sec-5-iamge-hexagonal {
+  width: 326px;
+  height: 440px;
+}
+.image-triangle {
+}
+
+.triangle-container {
+  position: absolute;
+  position: absolute;
+  /* margin-left: 12px; */
+  z-index: -1;
+  margin-top: 26px;
+}
+
+.triangle-container-img {
+  clip-path: polygon(50% 9%, 1% 100%, 100% 100%);
+  width: 246px;
+  margin-left: 6px;
+  margin-top: 18px;
+}
+
+.triangle-container-img-1 {
+  clip-path: polygon(50% 9%, 1% 100%, 100% 100%);
+  width: 253px;
+  margin-left: 71px;
+  margin-top: 39px;
+  transform: rotate(90deg);
+}
+.triangle-container-img-2 {
+  clip-path: polygon(50% 9%, 1% 100%, 100% 100%);
+  width: 281px;
+  margin-left: -22px;
+  margin-top: 51px;
+  transform: rotate(270deg);
+}
+.triangle-container-img-3 {
+  clip-path: polygon(50% 9%, 1% 100%, 100% 100%);
+  width: 257px;
+  margin-left: 10px;
+  margin-top: 95px;
+  transform: rotate(180deg);
+}
+.sec-5-image-1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.sec-5-image-2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.sec-5-image-1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .sec-5{} */
+
+@media only screen and (min-width: 750px) {
+  .sec-5-iamge-hexagonal {
+    width: 367px;
+    height: 490px;
+  }
+  .sec-5-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .sec-5-image-1 {
+    margin: 0px 30px;
+  }
+  .sec-5-image-2 {
+    margin: 0px 30px;
+  }
+
+  .triangle-container img {
+    width: 310px;
+  }
+  .triangle-container-img-3 {
+    margin-left: 13px;
+    margin-top: 140px;
+    transform: rotate(180deg);
+  }
+  .triangle-container-img {
+    margin-left: 13px;
+    margin-top: 10px;
+    /* transform: rotate(180deg); */
+  }
+  .triangle-container-img-2 {
+    margin-left: -8px;
+    margin-top: 61px;
+    /* transform: rotate(180deg); */
+  }
+  .triangle-container-img-1 {
+    margin-left: 40px;
+    margin-top: 90px;
+    /* transform: rotate(180deg); */
+  }
+
+  .sec-5-iamge-hexagonal {
+    width: 420px;
+    height: 550px;
+  }
+}
+
+.section-6 {
+  background-color: rgba(128, 128, 128, 0.064);
+  /* height: 100vh; */
+}
+
+/* .section-6 */
+.sec-6-list {
+  margin: 1px 31px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sec-6-list li {
+  margin: 1px 4px;
+  padding: 3px 29px;
+  border-radius: 4px;
+}
+.sec-6-list li:hover {
+  animation: list 1s linear 3;
+}
+@keyframes list {
+  0% {
+    background-color: aqua;
+    /* width: 113px; */
+    /* transform: rotateY(0deg); */
+  }
+  25% {
+    background-color: rgb(200, 255, 0);
+    /* width: 25px; */
+    /* transform: rotateY(20deg); */
+  }
+  40% {
+    background-color: rgb(68, 0, 255);
+    /* width: 25px; */
+    /* transform: rotateY(70deg); */
+  }
+  60% {
+    background-color: rgb(255, 0, 0);
+    /* width: 20px; */
+    /* transform: rotateY(180deg); */
+  }
+  100% {
+    background-color: rgb(0, 255, 81);
+    /* width: 23px; */
+    /* transform: rotateY(360deg); */
+  }
+}
+
+.sec-6-image:hover {
+  cursor: pointer;
+  /* background-color: #ebcd1e; */
+  /* overflow: hidden; */
+  /* z-index: 2; */
+}
+.sec-6-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sec-6-image img {
+  width: 400px;
+  height: 300px;
+}
+.sec-6-image {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+@media screen and (min-width: 450px) {
+  .sec-6-image img {
+    width: 250px;
+    height: 200px;
+    margin-left: 1px;
+  }
+  .sec-6-text {
+    font-size: 16px;
+    margin-bottom: 2px;
+    width: 250px;
+    height: 100px;
+  }
+  .sec-6-text p {
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 200px) {
+  .sec-7-main {
+    display: none;
+    /* visibility: hidden; */
+  }
+}
+@media screen and (min-width: 768px) {
+  .sec-6-image img {
+    width: 200px;
+    height: 200px;
+    margin-left: 0px;
+  }
+  .sec-6-text {
+    margin-bottom: 0px;
+    width: 200px;
+    height: 80px;
+  }
+  .sec-6-text p {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .sec-6-main {
+    display: none;
+  }
+  .sec-7-main {
+    visibility: visible;
+    display: flex;
+  }
+  /* .sec-6-image img{
+    width: 310px;
+    height: 300px;
+    margin-left: 0px;
+  
+  }
+  .sec-6-text p{
+    display: none;;
+  
+  }
+  .sec-6-text {
+    display: none;;
+   
+  }
+ 
+  .sec-6-image img:hover{
+    background-color: #ebcd1e;
+   
+  animation: hello 5s linear  ;
+position: relative;
+
+}
+
+@keyframes  hello{
+  from{
+    background-color: #dbbf1c;
+  }
+  to{
+    background-color: #dbbf1c;
+  }
+} */
+}
+
+.keyuse:hover {
+  animation: keuse 6s linear infinite;
+  position: relative;
+}
+.keyuse-1:hover {
+  animation: keuse1 7s linear infinite;
+  animation-direction: alternate;
+  position: relative;
+}
+
+@keyframes keuse {
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-top: 100px;
+  }
+}
+@keyframes keuse1 {
+  from {
+    margin-bottom: 0;
+  }
+  to {
+    margin-top: 100px;
+  }
+}
+
+.sec-8 {
+  background: url("http://templates.thememodern.com/architect/images/Overlay/1.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: left center;
+}
+.sec-8-1 {
+  background-color: #ebcc1eda;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+.sec-8-1-btn {
+  background-color: #332e2e;
+  color: white;
+  text-align: center;
+  margin-top: 116px;
+  padding: 6px 19px;
+  border-radius: 4px;
+  font-family: sans-serif;
+  margin-bottom: 106px;
+}
+.sec-8-1-btn:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  transition: 1s;
+}
+.sec-9 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 14px;
+}
+.sec-9-main-1 {
+  margin-right: 10px;
+}
+.sec-9-image {
+  overflow: hidden;
+}
+.pera21 {
+  border-radius: 0px 0px 4px 4px;
+  position: absolute;
+  background: #ebcd1e;
+  margin-left: 17px;
+  font-size: 22px;
+  /* font-family: monospace; */
+  width: 69px;
+  padding-left: 21px;
+  z-index: 0;
+  margin: 0px 23px;
+}
+.pera21 span {
+  line-height: 0;
+  font-size: 23px;
+  margin-top: 0px;
+  margin-left: -6px;
+  padding-top: -24px;
+}
+.sec-9-image img {
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.sec-9-image img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.sec-9-text {
+}
+.sec-9-h {
+  font-weight: bold;
+  margin: 11px 0;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.sec-9-pera {
+  color: gray;
+  margin-bottom: 26px;
+  font-family: sans-serif;
+}
+.sec-9-btn {
+  background-color: #ebcd1e;
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 7px;
+  margin-bottom: 22px;
+  font-size: 16px;
+}
+.sec-9-btn:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .sec-9 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 14px;
+  }
+  .sec-9-image-1 {
+    margin-right: 10px;
+  }
+}
+.sec-10-main {
+
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin: 10px 0px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.sec-10-main-image-1
+
+{
+  padding: 10px 20px;
+  width: 250px;
+
+}
+.sec-10
+
+{
+ background-color: #e7e2e285;
+
+}
+.sec-10-main img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  width: 150px;
+  padding: 49px 0px;
+}
+
+.sec-10-main img:hover {
+  filter: none;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.marquee-1 {
+    animation: marquee 10s  infinite; 
+    transition: all 0.6s ease 0s;
+
+  }
+  /* @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    % {
+      transform: translateX(-100%); 
+    }
+  } */
+@media screen and (min-width: 230px) {
+  .sec-10-main-image-3 img {
+    display: none;
+    visibility: hidden;
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-4 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-5 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-6 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-7 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-8 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-9 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-10 img {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 500px) {
+  .sec-10-main-image-3 img {
+    display: flex;
+    visibility: visible;
+
+  }
+  .sec-10-main-image-3{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-4 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-5 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-6 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-7 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-8 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-9 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-10 img {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 700px) {
+  .sec-10-main-image-3 img {
+    display: flex;
+    visibility: visible;
+    
+  }
+  .sec-10-main-image-3{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-4 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-4{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-5 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-6 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-7 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-8 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-9 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-10 img {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 800px) {
+  .sec-10-main-image-3 img {
+    display: flex;
+    visibility: visible;
+    
+  }
+  .sec-10-main-image-3{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-4 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-4{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-5 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-5{
+    padding: 10px 20px;
+    width: 250px;
+  }
+
+  .sec-10-main-image-6 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-7 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-8 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-9 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-10 img {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 900px) {
+  .sec-10-main-image-3 img {
+    display: flex;
+    visibility: visible;
+    
+  }
+  .sec-10-main-image-3{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-4 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-4{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-5 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-5{
+    padding: 10px 20px;
+    width: 250px;
+  }
+
+  .sec-10-main-image-6 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-6{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-7 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-8 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-9 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-10 img {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .sec-10-main-image-3 img {
+    display: flex;
+    visibility: visible;
+    
+  }
+  .sec-10-main-image-3{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-4 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-4{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-5 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-5{
+    padding: 10px 20px;
+    width: 250px;
+  }
+
+  .sec-10-main-image-6 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-6{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-7 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-7{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-8 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-9 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-10 img {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .sec-10-main-image-3 img {
+    display: flex;
+    visibility: visible;
+    
+  }
+  .sec-10-main-image-3{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-4 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-4{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-5 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-5{
+    padding: 10px 20px;
+    width: 250px;
+  }
+
+  .sec-10-main-image-6 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-6{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-7 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-7{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-8 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-8{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-9 img {
+    display: none;
+    visibility: hidden;
+  }
+  .sec-10-main-image-10 img {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .sec-10-main-image-3 img {
+    display: flex;
+    visibility: visible;
+    
+  }
+  .sec-10-main-image-3{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-4 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-4{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-5 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-5{
+    padding: 10px 20px;
+    width: 250px;
+  }
+
+  .sec-10-main-image-6 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-6{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-7 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-7{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-8 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-8{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-9 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-9{
+    padding: 10px 20px;
+    width: 250px;
+  }
+  .sec-10-main-image-10 img {
+    display: flex;
+    visibility: visible;
+  }
+  .sec-10-main-image-10{
+    padding: 10px 20px;
+    width: 250px;
+}
+
+}
+
+/* .sec-11 */
+
+.sec-11{
+
+  background: url('	http://templates.thememodern.com/architect/images/Overlay/2.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center  ;
+  background-attachment: fixed;
+  height: 80%;
+  padding-bottom: 13px;
+
+
+}
+.sec-11-icons-pera{
+   margin: 0 8px;
+   max-width: 710px;
+}
+.sec-11-pera {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  margin-left: 31px;
+  margin-top: -21px;
+  font-family: 'Tillana', cursive;
+
+}
+
+.sec-11-image-main{
+max-width: 350px;
+  margin: 12px  0;
+  display: flex;
+  color: white;
+  justify-content:space-around;
+}
+
+.sec-11-image-logo img {
+  width: 60px;
+  margin-top: 38px;
+  height: 60px;
+  border: 2px solid #ebcd1e;
+  margin-left: 20px;
+  border-radius: 4px;
+
+}
+.sec-11-logo-pera {
+  font-size: 16px;
+  width: 208px;
+  margin-top: 32px;
+  line-height: 1.6;
+  margin-left: 12px;
+}
+.sec-11-logo-pera span {
+  font-size: 20px;
+  /* margin-left: -18px; */
+  font-family: initial;
+
+}
+.sec-11-dote{
+  display: flex;
+  margin: 64px 0;
+  margin-left: 48px;
+  justify-content: center;
+}
+.sec-11-dote div {
+  background-color: white;
+  width: 8px;
+  margin: 1px 6px;
+  height: 8px;
+  border-radius: 50%;
+}
+.sec-11-dote div:hover{
+  background-color: #ebcd1e;
+  cursor: pointer;
+
+}
+
+.sec-11-main-2{
+  display: none;
+}
+@media screen  and (min-width: 768px){
+  .sec-11-main-2{
+    display: block;
+}
+.sec-11-main{
+  display: flex;
+  justify-content: space-around;
+}
+.sec-11-dote-1{
+  display: flex;
+  margin: 84px 0;
+  margin-left: -553px;
+  justify-content: center;
+}
+.sec-11-dote-1 div {
+  background-color: white;
+  width: 8px;
+  margin: 1px 6px;
+  height: 8px;
+  border-radius: 50%;
+}
+.sec-11-dote-1 div:hover{
+  background-color: #ebcd1e;
+  cursor: pointer;
+}
+.sec-11-dote{
+  display: none;
+  
+}
+}
+
+@media screen  and (min-width: 992px){
+  .sec-11-dote-1{
+    display: flex;
+    margin: 84px 0;
+    margin-left: -628px;
+    justify-content: center;
+}
+}
+
+
+/* sec-12 */
+.sec-12-pera {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 13px;
+  font-size: 14px;
+
+}
+.sec-12-pera span{
+  
+  justify-content: center;
+  text-align: center;
+}
+.sec-12-pera a{
+  
+  text-align: center;
+  justify-content: center;
+}
+.sec-12-submit {
+  display: flex;
+  /* flex-direction:column ; */
+  margin: 36px 8px;
+}
+.input-sec-12 {
+  padding: 2vh 17vw;
+  background: gray;
+  font-family: ui-monospace;
+
+
+}
+.sec-12-btn {
+  
+ 
+  background: #ebcd1e;
+  margin-left: 89px;
+  padding: 8px 43px;
+  margin: 22px 71px;
+  border-radius: 4px;
+
+}
+
+@media screen and (min-width: 700px) {
+  .sec-12-submit {
+    display: flex;
+    
+    flex-wrap: nowrap;
+    margin: 36px 8px;
+  }
+
+  .input-sec-12{
+    padding: 2vh 17vw;
+    background: gray;
+    font-family: ui-monospace;
+  }
+
+  .sec-12-btn {
+    
+   
+    background: #ebcd1e;
+    margin-left: 89px;
+    padding: 8px 43px;
+    margin: 22px 71px;
+    border-radius: 4px;
+  
+  }
+
+}
+.sec-13-main {
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 59px;
+  margin-top: 22px;
+
+}
+.sec-13-left{
+
+}
+.sec-13-left img{
+  margin: 53px 104px;
+}
+.sec-13-center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 21px;
+  flex-wrap: wrap;
+
+}
+.sec-13-center a {
+
+  padding: 5px 66px;
+  color: rgb(166, 162, 162);
+
+}
+.sec-13-center a:hover{
+  color: white;
+  cursor: pointer;
+}
+.sec-13-right {
+  display: flex;
+  justify-content: center;
+
+}
+.sec-13-right i {
+  padding: 13px 13px;
+  background: #484848;
+  margin: 0 3px;
+  font-size: 20px;
+  border-radius: 3px;
+  color: white;
+
+}
+.sec-13-right i:hover{
+  background-color: #ebcd1e;
+  color: black;
+}
+.vertical-1{
+  display: none;
+}
+
+@media screen and (min-width: 768px){
+  .sec-13-main {
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 12px;
+    margin-top: 52px;
+    padding-top: 40px;
+  
+  }
+  .vertical-1{
+    display: flex;
+    background: gray;
+  width: 2px;
+  height: 19px;
+  border-radius: 11px;
+  margin-right: 28px;
+  margin-top: 8px;
+  }
+
+  .sec-13-left img{
+    margin: 53px 0px;
+  }
+  .sec-13-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+    flex-wrap: wrap;
+  
+  }
+  .sec-13-center a {
+
+   
+
+    padding: 5px 10px;
+    color: rgb(166, 162, 162);
+
+  
+  }
+  
+  
+
+  .sec-13-right {
+    display: flex;
+    justify-content: center;
+    margin-top: 54px;
+    margin-bottom: 68px;
+  
+  }
+  .sec-13-right i {
+    padding: 13px 12px;
+    background: #484848;
+    margin: -6px 3px;
+    font-size: 20px;
+    border-radius: 3px;
+    color: white;
+  
+  }
+  
+}
+.footer{
+  background-color: rgb(35, 34, 34);
+  color: white;
+  text-align: center;
+  font-family: 'Tillana';
+  padding: 10px 0;
+}
+.footer span{
+  color: #ebcd1e;
+}
+    </style>
+  </head>
+  <body>
+    <!-- first-section -->
+    <header class="header-1">
+      <div class="sticky-1">
+          <nav class="navbar-1">
+              <div class="navbar-main">
+                  <a class="navbar-brand" href="#">
+                      <img src="https://public-assets.envato-static.com/assets/logos/envato_market-dde916a48af7413e54aa058fe7ae6856752fca799da4bec355f00aea904bfa19.svg"
+                          alt="logo">
+                  </a>
+                  <button class="navbar-btn">Buy Now</button>
+              </div>
+          </nav>
+
+    <!-- section-2 -->
+    <nav class="navbar-2">
+      <div class="navbar-2-main">
+          <a class="navbar-brand-2" href="#">
+              <img src="	http://templates.thememodern.com/architect/images/Header/logo.png" alt="logo">
+          </a>
+          <ul>
+              <a class="home" href="#">HOME</a>
+              <div class="vertical"></div>
+              <a class="home" href="#">PROJECTS</a>
+              <div class="vertical"></div>
+              <a class="home" href="#">SERVICES</a>
+              <div class="vertical"></div>
+              <a class="home" href="#">ABOUT</a>
+              <div class="vertical"></div>
+              <a class="home" href="#">BLOG</a>
+              <div class="vertical"></div>
+              <a class="home" href="#">PAGES</a>
+              <div class="vertical"></div>
+              <a class="home" href="#">SHOPE</a>
+              <div class="vertical"></div>
+              <a class="home" href="#">CONTACT US</a>
+          </ul>
+          <div class="navbar-icons">
+              <i class="fa-solid fa-bag-shopping"></i>
+              <div class="vertical"></div>
+
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <div class="vertical"></div>
+
+              <i class="fa-solid fa-bars" id="nav-2-icon"></i>
+
+
+          </div>
+      </div>
+  </nav>
+  </div>
+
+      <!-- section- -->
+      <div class="background">
+
+        <div class="text-main">
+            <p class="text-main-sm">bedroom interior</p>
+            <p class="text-main-bg">DESIGN AWARDS</p>
+            <a class="text-main-btn-1"> OUR PROJECTS</a>
+            <a class="text-main-btn-2"> GET A QUOTE</a>
+         </div>
+     </div>
+
+     <!-- section-3 -->
+     <section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">WHAT WE DO</h1>
+      <div class="flex  justify-center items-center  mt-5">
+        <div class="bg-slate-500 h-1 w-52 mt-4"></div>
+        <img  class="w-12 mt-5  " src="https://img.freepik.com/premium-vector/distress-basic-geometric-shape-design-noise-dispersion-triangle-logo-spray-effect_705778-16.jpg?w=740">
+        <div class="bg-slate-500 h-1 w-52 mt-4"></div>
+      </div>
+      <!-- <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p> -->
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <div class="flex-grow sm:pl-2">
+            <h2 class="title-font font-medium text-lg text-gray-900"><span class="bg-yellow-400">RESIDENTIAL</span> DESIGN</h2>
+            <!-- <h3 class="text-gray-500 mb-3">UI Developer</h3> -->
+            <p class="mb-4">Quisque pulvinar libero dolor, quis bibendum eros euismod sit amet. Proin dapibus id diam at.</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+          <img alt="team" class="flex-shrink-0 rounded-lg w-72 h-48 object-cover object-center sm:mb-0 mb-4" src="http://templates.thememodern.com/architect/images/Services/2.jpg">
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-72 h-48 object-cover object-center sm:mb-0 mb-4" src="	http://templates.thememodern.com/architect/images/Services/3.jpg">
+          <div class="flex-grow sm:pl-2">
+            <h2 class="title-font font-medium text-lg text-gray-900"><span class="bg-yellow-400">ECOMMERCIAL</span> DESIGN
+            </h2>
+            <!-- <h3 class="text-gray-500 mb-3">Designer</h3> -->
+            <p class="mb-4">Quisque pulvinar libero dolor, quis bibendum eros euismod sit amet. Proin dapibus id diam at.</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <div class="flex-grow sm:pl-2">
+            <h2 class="title-font font-medium text-lg text-gray-900"><span class="bg-yellow-400">OFFICE </span>DESIGN</h2>
+            <!-- <h3 class="text-gray-500 mb-3">UI Developer</h3> -->
+            <p class="mb-4">Quisque pulvinar libero dolor, quis bibendum eros euismod sit amet. Proin dapibus id diam at.</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+          <img alt="team" class="flex-shrink-0 rounded-lg w-72 h-48 object-cover object-center sm:mb-0 mb-4" src="	http://templates.thememodern.com/architect/images/Services/3.jpg">
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-72 h-48 object-cover object-center sm:mb-0 mb-4" src="	http://templates.thememodern.com/architect/images/Services/4.jpg">
+          <div class="flex-grow sm:pl-2">
+            <h2 class="title-font font-medium text-lg text-gray-900"><span class="bg-yellow-400"> HOSPITAL </span> DESIGN</h2>
+            <!-- <h3 class="text-gray-500 mb-3">Designer</h3> -->
+            <p class="mb-4">Quisque pulvinar libero dolor, quis bibendum eros euismod sit amet. Proin dapibus id diam at.</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- section-4/ -->
+<section class="text-gray-600 body-font" >
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 lg:w-1/3  " style="background: url('http://templates.thememodern.com/architect/images/Promotion/1.jpg'); 
+      background-repeat: no-repeat;
+      background-size: cover;"
+      >
+        <div class="h-full  px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center ">
+          <!-- <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2> -->
+          <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">EXPERT INTERIOR</h1>
+          <p class="leading-relaxed mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi similique laudantium quidem ut harum placeat dicta odit recusandae.</p>
+          <a class=" inline-flex items-center bg-yellow-500 px-4 py-2 rounded text-white text-main-btn-2 cursor-pointer">VIEW SERVICE
+
+            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+          <div class="text-center mt-2 leading-none flex justify-center  bottom-0 left-0 w-full py-4">
+            <span class="text-gray-900 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>1.2K
+            </span>
+            <span class="text-gray-900 inline-flex items-center leading-none text-sm">
+              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+              </svg>6
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/3" style="background: url('	http://templates.thememodern.com/architect/images/Promotion/2.jpg');
+       background-repeat: no-repeat;
+      background-size: cover;">
+        <div class="h-full px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center ">
+          <!-- <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2> -->
+          <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">GREEN DESIGN</h1>
+          <p class="leading-relaxed mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi similique laudantium quidem ut harum placeat dicta odit recusandae.</p>
+          <a class=" inline-flex items-center bg-yellow-500 px-4 py-2 rounded text-white cursor-pointer text-main-btn-2 " >OUR PROJECT
+
+            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+          <div class="text-center mt-2 leading-none flex justify-center  bottom-0 left-0 w-full py-4">
+            <span class="text-gray-900 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>1.2K
+            </span>
+            <span class="text-gray-900 inline-flex items-center leading-none text-sm">
+              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+              </svg>6
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/3" style="background: url('	http://templates.thememodern.com/architect/images/Promotion/3.jpg');
+       background-repeat: no-repeat;
+      background-size: cover;"
+      >
+        <div class="h-full  px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center ">
+          <h2 class="tracking-widest text-xs title-font font-medium text-gray-900 mb-1"></h2>
+          <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">EXPERT INTERIOR</h1>
+          <p class="leading-relaxed mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit modi similique laudantium quidem ut harum placeat dicta odit recusandae.</p>
+          <a class=" inline-flex items-center bg-yellow-500 px-4 py-2 rounded text-white  cursor-pointer text-main-btn-2">VIEW SHOPE
+            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+          <div class="text-center mt-2 leading-none flex justify-center  bottom-0 left-0 w-full py-4">
+            <span class="text-gray-900 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>1.2K
+            </span>
+            <span class="text-gray-900 inline-flex items-center leading-none text-sm">
+              <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+              </svg>6
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- section-5 -->
+   
+
+  <div class="flex flex-col text-center w-full mb-10 mt-10">
+    <h1 class="text-3xl  title-font mb-4 text-gray-900 tracking-widest mt-10" style="font-family: sans-serif;">WHY CHOOSE US ?</h1>
+    <div class="flex  justify-center items-center  mt-5">
+      <div class="bg-slate-500 h-[2px] w-52 mt-4" style="height:5px;"></div>
+      <img  class="w-12 mt-5  " src="https://img.freepik.com/premium-vector/distress-basic-geometric-shape-design-noise-dispersion-triangle-logo-spray-effect_705778-16.jpg?w=740">
+      <div class="bg-slate-500 h-1 w-52 mt-4"></div>
+    </div>
+</div>
+    <div class="sec-5">
+      <div class="sec-5-main">
+      <div class="sec-5-main-1">
+
+        <div class="sec-5-image-1">
+          <p class="mt-16 -mb-32  font-medium text-xl">CREATIVE</p>
+          <div class="triangle-container ">
+            <!-- <img src="https://th.bing.com/th/id/OIP.8eHxHtxbuiYJd2wySPUBHwHaHa?pid=ImgDet&w=800&h=800&rs=1" alt="" class="dots"> -->
+            <img src="http://templates.thememodern.com/architect/images/Whychooseus/1.jpg" alt="Image" class="triangle-container-img ">
+          </div>
+          <img src="https://webstockreview.net/images/hexagon-clipart-gold-hexagon.png" alt=""class=" sec-5-iamge-hexagonal">
+        </div> 
+
+        <div class="sec-5-image-1">
+          <p class="mt-16 -mb-32  font-medium text-xl">DEVOTED</p>
+          <div class="triangle-container ">
+            <!-- <img src="https://th.bing.com/th/id/OIP.8eHxHtxbuiYJd2wySPUBHwHaHa?pid=ImgDet&w=800&h=800&rs=1" alt="" class="dots"> -->
+            <img src="http://templates.thememodern.com/architect/images/Whychooseus/2.jpg" alt="Image" class="triangle-container-img-1 ">
+          </div>
+          <img src="https://webstockreview.net/images/hexagon-clipart-gold-hexagon.png" alt=""class=" sec-5-iamge-hexagonal">
+        </div> 
+</div>
+ <div class="sec-5-main-2">
+        <div class="sec-5-image-1">
+          <p class="mt-16 -mb-32 font-medium text-xl">KNOW-HOW</p>
+          <div class="triangle-container ">
+            <!-- <img src="https://th.bing.com/th/id/OIP.8eHxHtxbuiYJd2wySPUBHwHaHa?pid=ImgDet&w=800&h=800&rs=1" alt="" class="dots"> -->
+            <img src="http://templates.thememodern.com/architect/images/Whychooseus/3.jpg" alt="Image" class="triangle-container-img-2 ">
+          </div>
+          <img src="https://webstockreview.net/images/hexagon-clipart-gold-hexagon.png" alt=""class=" sec-5-iamge-hexagonal">
+        </div> 
+
+        <div class="sec-5-image-1">
+          <p class="mt-16 -mb-32 font-medium text-xl">CARING</p>
+          <div class="triangle-container ">
+            <!-- <img src="https://th.bing.com/th/id/OIP.8eHxHtxbuiYJd2wySPUBHwHaHa?pid=ImgDet&w=800&h=800&rs=1" alt="" class="dots"> -->
+            <img src="	http://templates.thememodern.com/architect/images/Whychooseus/4.jpg" alt="Image" class="triangle-container-img-3 ">
+          </div>
+          <img src="https://webstockreview.net/images/hexagon-clipart-gold-hexagon.png" alt=""class=" sec-5-iamge-hexagonal">
+        </div> 
+        </div>
+      </div>
+    </div>
+    </div>
+    
+   
+<!-- section-6 -->
+<section class="section-6">
+<div class="flex flex-col text-center w-full mb-14 mt-10 pt-24">
+  <h1 class="text-3xl  title-font mb-4 text-gray-900 tracking-widest mt-10" style="font-family: sans-serif;">LASTEST PROJECTS</h1>
+  <div class="flex  justify-center items-center  mt-5">
+    <div class="bg-slate-500 h-[2px] w-52 mt-4" style="height:5px;"></div>
+    <img  class="w-12  " src="https://img.freepik.com/premium-vector/distress-basic-geometric-shape-design-noise-dispersion-triangle-logo-spray-effect_705778-16.jpg?w=740">
+    <div class="bg-slate-500 h-1 w-52 mt-4"></div>
+  </div>
+</div>
+  <ul class="sec-6-list">
+    <li class="bg-yellow-400">ALL PROJECTS</li>
+    <li>RESIDENTIAL</li>
+    <li>ECOMMERCIAL</li>
+    <li>OFFICE</li>
+    <li>HOSPITAL</li>
+  </ul>
+
+  <div class="sec-6-main mt-16  " >
+    <div class="sec-6-image md:max-xl:flex">
+    <img src="http://templates.thememodern.com/architect/images/Project/1.jpg" alt="">
+    <div class="sec-6-text bg-black  flex flex-col justify-center items-start pl-3">
+      <p class="text-white text-2xl font-medium font-mono mb-4 ">DREAM HOUSE</p>
+      <p  class="text-white text-xl font-medium font-mono">Residential</p>
+    </div>
+    </div>
+    <div class="sec-6-image">
+    <img src="http://templates.thememodern.com/architect/images/Project/2.jpg" alt="">
+    <div class="sec-6-text bg-black flex flex-col justify-center items-start pl-3">
+      <p class="text-white text-2xl font-medium font-mono mb-4">WOOD WALL CITY</p>
+      <p  class="text-white text-xl font-medium font-mono">Ecommercial</p>
+    </div>
+    </div>
+    <div class="sec-6-image">
+    <img src="http://templates.thememodern.com/architect/images/Project/3.jpg" alt="">
+    <div class="sec-6-text bg-black  flex flex-col justify-center items-start pl-3">
+      <p class="text-white text-2xl font-medium font-mono mb-4">BATHROOM FURNITURE</p>
+      <p  class="text-white text-xl font-medium font-mono">Residential</p>
+    </div>
+    </div>
+    <div class="sec-6-image">
+    <img src="http://templates.thememodern.com/architect/images/Project/4.jpg" alt="">
+    <div class="sec-6-text bg-black  flex flex-col justify-center items-start pl-3">
+      <p class="text-white text-2xl font-medium font-mono mb-4">LIVING ROOM DECOR</p>
+      <p  class="text-white text-xl font-medium font-mono">Residential</p>
+    </div>
+    </div>
+    <div class="sec-6-image">
+    <img src="http://templates.thememodern.com/architect/images/Project/5.jpg" alt="">
+    <div class="sec-6-text bg-black  flex flex-col justify-center items-start pl-3">
+      <p class="text-white text-2xl font-medium font-mono mb-4">OPEN SPACE HOUSE</p>
+      <p  class="text-white text-xl font-medium font-mono">Residential</p>
+    </div>
+    </div>
+    <div class="sec-6-image">
+    <img src="http://templates.thememodern.com/architect/images/Project/6.jpg" alt="">
+    <div class="sec-6-text bg-black  flex flex-col justify-center items-start pl-3">
+      <p class="text-white text-2xl font-medium font-mono mb-4">SKY HOTEL </p>
+      <P  class="text-white text-xl font-medium font-mono ">Ecommercial</p>
+    </div>
+    </div>
+    <div class="sec-6-image">
+    <img src="http://templates.thememodern.com/architect/images/Project/7.jpg" alt="">
+    <div class="sec-6-text bg-black  flex flex-col justify-center items-start pl-3">
+      <p class="text-white text-2xl font-medium font-mono mb-4">GRANGE CORPORATE</p>
+      <p  class="text-white text-xl font-medium font-mono">Office</p>
+    </div>
+    </div>
+    <div class="sec-6-image hover:bg-slate-500">
+    <img class="hover:bg-slate-500" src="http://templates.thememodern.com/architect/images/Project/8.jpg" alt="" id="sec-6-image">
+    
+    <div class="sec-6-text bg-black  flex flex-col justify-center items-start pl-3">
+      <p class="text-white text-2xl font-medium font-mono mb-4">OCEAN VIEW BUILDING</p>
+      <p  class="text-white text-xl font-medium font-mono">Residential</p>
+    </div>
+    
+    </div>
+  </div>
+</section>
+
+<!-- section-7 -->
+  <section class="text-gray-600 body-font sec-7-main mt-20">
+    <div class="  mx-auto " style="width:auto;" >
+      <!-- <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+      </div> -->
+      <div class="flex flex-wrap ">
+        <div class=" sm:w-1/2 " style="width: 24.333333% ; ">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute -z-10 inset-0 w-full h-full object-cover object-center" src="http://templates.thememodern.com/architect/images/Project/8.jpg" style="height: 230px;">
+            <div class="px-8 py-10 relative z-10 w-full border-0 border-gray-200 bg-yellow-400 opacity-0 hover:opacity-80  "style="height: 230px; text-align:center">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1 mt-0 keyuse">DREAM HOUSE</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3 keyuse-1">Residential</h1>
+              <!-- <p class="leading-relaxed hidden" >Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p> -->
+            </div>
+          </div>
+        </div>
+        <div class=" sm:w-1/2 " style="width: 24.333333%;">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute -z-10 inset-0 w-full h-full object-cover object-center" src="http://templates.thememodern.com/architect/images/Project/1.jpg" style="height: 230px;">
+            <div class="px-8 py-10 relative z-10 w-full border-0 border-gray-200 bg-yellow-400 opacity-0 hover:opacity-80"   style="height: 230px; text-align:center">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1  keyuse">LIVING ROOM DECOR</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3  keyuse-1">Residential</h1>
+              <!-- <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p> -->
+            </div>
+          </div>
+        </div>
+        <div class=" sm:w-1/2 " style="width: 24.333333%;">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute -z-10 inset-0 w-full h-full object-cover object-center" src="http://templates.thememodern.com/architect/images/Project/2.jpg" style="height: 230px;">
+            <div class="px-8 py-10 relative z-10 w-full border-0 border-gray-200 bg-yellow-400 opacity-0 hover:opacity-80"  style="height: 230px; text-align:center">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1  keyuse">OPEN SPACE HOUSE</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3  keyuse-1">Residential</h1>
+              <!-- <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p> -->
+            </div>
+          </div>
+        </div>
+        <div class=" sm:w-1/2 " style="width: 24.333333%;">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute -z-10 inset-0 w-full h-full object-cover object-center" src="http://templates.thememodern.com/architect/images/Project/3.jpg" style="height: 230px;">
+            <div class="px-8 py-10 relative z-10 w-full border-0 border-gray-200 bg-yellow-400 opacity-0 hover:opacity-80"  style="height: 230px; text-align:center">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1  keyuse">BATHROOM FURNITURE</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3  keyuse-1">Residential</h1>
+              <!-- <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p> -->
+            </div>
+          </div>
+        </div>
+        <div class=" sm:w-1/2 " style="width: 24.333333%;">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute -z-10 inset-0 w-full h-full object-cover object-center" src="http://templates.thememodern.com/architect/images/Project/4.jpg" style="height: 230px;">
+            <div class="px-8 py-10 relative z-10 w-full border-0 border-gray-200 bg-yellow-400 opacity-0 hover:opacity-80"  style="height: 230px; text-align:center">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1  keyuse">OPEN SPACE HOUSE</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3  keyuse-1">Residential</h1>
+              <!-- <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p> -->
+            </div>
+          </div>
+        </div>
+        <div class=" sm:w-1/2 " style="width: 24.333333%;">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute -z-10 inset-0 w-full h-full object-cover object-center" src="http://templates.thememodern.com/architect/images/Project/5.jpg" style="height: 230px;">
+            <div class="px-8 py-10 relative z-10 w-full border-0 border-gray-200 bg-yellow-400 opacity-0 hover:opacity-80"  style="height: 230px; text-align:center">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1  keyuse">SKY HOTEL</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3  keyuse-1">Ecommercial</h1>
+              <!-- <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p> -->
+            </div>
+          </div>
+        </div>
+        <div class=" sm:w-1/2 " style="width: 24.333333%;">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute  -z-10 inset-0 w-full h-full object-cover object-center" src="http://templates.thememodern.com/architect/images/Project/6.jpg" style="height: 230px;">
+            <div class="px-8 py-10 relative z-10 w-full border-0 border-gray-200 bg-yellow-400 opacity-0 hover:opacity-80"  style="height: 230px; text-align:center">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1  keyuse">RANGE CORPORATE</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3  keyuse-1">Residential</h1>
+              <!-- <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p> -->
+            </div>
+          </div>
+        </div>
+        <div class=" sm:w-1/2 " style="width: 24.333333%;">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute -z-10 inset-0 w-full h-full object-cover object-center" src="http://templates.thememodern.com/architect/images/Project/7.jpg" style="height: 230px;">
+            <div class="px-8 py-10 relative z-10 w-full border-0 border-gray-200 bg-yellow-400 opacity-0 hover:opacity-80"  style="height: 230px; text-align:center">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1  keyuse">OCEAN VIEW </h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3  keyuse-1">Office</h1>
+              <!-- <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+   <!-- section-8 -->
+   <section>
+    <div class="sec-8">
+     
+     
+      <div class="sec-8-1">
+    <button class="sec-8-1-btn">VIEW ALL PROJECT</button>
+      </div>
+    </div>
+   </section>
+
+   <SECTION>
+    <div class="flex flex-col text-center w-full mb-14 mt-10 pt-24">
+      <h1 class="text-3xl  title-font mb-4 text-gray-900 tracking-widest mt-10" style="font-family: sans-serif;">LASTEST FROM NEWS</h1>
+      <div class="flex  justify-center items-center  mt-5">
+        <div class="bg-slate-500 h-[2px] w-52 mt-4" style="height:5px;"></div>
+        <img  class="w-12  " src="https://img.freepik.com/premium-vector/distress-basic-geometric-shape-design-noise-dispersion-triangle-logo-spray-effect_705778-16.jpg?w=740">
+        <div class="bg-slate-500 h-1 w-52 mt-4"></div>
+      </div>
+    </div>
+   </SECTION>
+
+
+
+   <section>
+<div class="sec-9">
+  <div class="sec-9-main-1">
+    <div class="sec-9-image">
+      <p class="pera21">21 <span>MAY</span></p>
+      <img src="	http://templates.thememodern.com/architect/images/Blog/1.jpg" alt="image">
+    </div>
+    <div class="sec-9-text">
+<p class="sec-9-h">15 Notable products at ARC Interior Design Contest</p>
+<p class="sec-9-pera">Morbi vehicula a nibh in commodo. Aliquam quis dolor eget lectus pulvinar eu rhoncus ligula. Ut leo mauris, molestie imperdiet consequat in, varius ac sapien.</p>
+<p class="sec-9-btn">CONTINUE READING...</p>
+    </div>
+  </div>
+
+  <div class="sec-9-main-2">
+    <div class="sec-9-image">
+      <p class="pera21">18 <span>MAY</span></p>
+
+      <img src="	http://templates.thememodern.com/architect/images/Blog/2.jpg" alt="image">
+    </div>
+    <div class="sec-9-text">
+<p class="sec-9-h">2016 interior Design Trends</p>
+<p class="sec-9-pera">Morbi vehicula a nibh in commodo. Aliquam quis dolor eget lectus pulvinar eu rhoncus ligula. Ut leo mauris, molestie imperdiet consequat in, varius ac sapien.</p>
+<p class="sec-9-btn">CONTINUE READING...</p>
+    </div>
+  </div>
+</div>
+   </section>
+   
+   <!-- section-10-->
+   <SECTION class="sec-10">
+   <section>
+
+    <div class="flex flex-col text-center w-full mb-14 mt-10 pt-24">
+      <h1 class="text-3xl  title-font mb-4 text-gray-900 tracking-widest mt-10" style="font-family: sans-serif;">OUR PARTNERS</h1>
+      <div class="flex  justify-center items-center  mt-5">
+        <div class="bg-slate-500 h-[2px] w-52 mt-2" style="height:2px;"></div>
+        
+        <img  class="w-6  " src="https://img.freepik.com/premium-vector/distress-basic-geometric-shape-design-noise-dispersion-triangle-logo-spray-effect_705778-16.jpg?w=740">
+        <div class="bg-slate-500 h-1 w-52 mt-2" style="height: 2px;"></div>
+      </div>
+    </div>
+
+   </section>
+    <marquee behavior="alternate" direction="left" scrollamount="3" class="marquee-1" >
+    <div class="sec-10-main">
+
+      <div class="sec-10-main-image-1">
+  <img src="	http://templates.thememodern.com/architect/images/Partner/1.png" alt="image">
+</div>
+      <div class="sec-10-main-image-2">
+  <img src="	http://templates.thememodern.com/architect/images/Partner/2.png" alt="image" >
+</div>
+      <div class="sec-10-main-image-3">
+  <img src="	http://templates.thememodern.com/architect/images/Partner/3.png" alt="image">
+</div>
+      <div class="sec-10-main-image-4">
+  <img src="	http://templates.thememodern.com/architect/images/Partner/4.png" alt="image">
+</div>
+      <div class="sec-10-main-image-5">
+  <img src="	http://templates.thememodern.com/architect/images/Partner/5.png" alt="image">
+</div>
+
+<!-- <div class="sec-10-main-image-6">
+  <img src="	http://templates.thememodern.com/architect/images/Partner/1.png" alt="image"> -->
+</div>
+      <!-- <div class="sec-10-main-image-7">
+  <img src="	http://templates.thememodern.com/architect/images/Partner/2.png" alt="image">
+</div> -->
+   
+</div>
+</marquee>
+   </SECTION>
+
+   <!-- section-11 -->
+
+   <section class=" sec-11">
+
+    <div class="flex flex-col text-center w-full mb-14  pt-7">
+      <h1 class="text-3xl  title-font mb-4 text-white tracking-widest mt-10" style="font-family: sans-serif;">WHAT OUR CLIENT SAYS</h1>
+      <div class="flex  justify-center items-center  mt-5">
+        <div class="bg-white h-[2px] w-52 mt-2" style="height:2px;"></div>
+        
+        <img  class="w-6  " src="https://img.freepik.com/premium-vector/distress-basic-geometric-shape-design-noise-dispersion-triangle-logo-spray-effect_705778-16.jpg?w=740">
+        <div class="bg-white h-1 w-52 mt-2" style="height: 2px;"></div>
+      </div>
+    </div>
+
+    <div class=" sec-11-main">
+<div class="sec-11-main-1">
+
+      <div class="sec-11-icons-pera">
+      <i class="fa-solid fa-quote-left" style="color:white;font-size: 30px;"></i>
+      <p class="sec-11-pera">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, hic! Eum adipisci cum quia libero? Vero voluptatem voluptas, sapiente necessitatibus quasi dignissimos ratione, officia id, iure culpa molestiae ut officiis dicta labore! Sint, rerum?</p>
+    </div>
+      <div class="sec-11-image-main">
+      <div class="sec-11-image-logo">
+        <img src="	http://templates.thememodern.com/architect/images/Testimonials/1.jpg" alt="">
+      </div>
+      <div class="sec-11-logo-pera">
+        <span>  LINDA CAMPBELL
+        </span> <br>
+        CEO Finance Theme Group
+      </div>
+
+     
+    </div>
+    <div class="sec-11-dote">
+      <div style="background-color: yellow;"></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    </div>
+
+    <div class="sec-11-main-2">
+
+      <div class="sec-11-icons-pera">
+      <i class="fa-solid fa-quote-left" style="color:white;font-size: 30px;"></i>
+      <p class="sec-11-pera">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, hic! Eum adipisci cum quia libero? Vero voluptatem voluptas, sapiente necessitatibus quasi dignissimos ratione, officia id, iure culpa molestiae ut officiis dicta labore! Sint, rerum?</p>
+    </div>
+      <div class="sec-11-image-main">
+      <div class="sec-11-image-logo">
+        <img src="	http://templates.thememodern.com/architect/images/Testimonials/2.jpg" alt="">
+      </div>
+      <div class="sec-11-logo-pera">
+        <span>  LINDA CAMPBELL
+        </span> <br>
+        CEO Finance Theme Group
+      </div>
+
+     
+    </div>
+    <div class="sec-11-dote-1">
+      <div style="background-color: yellow;"></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      
+    </div>
+    </div>
+  </div>
+   </section>
+
+   <!-- section-12 -->
+   <!-- <section class="sec-12">
+    <div class="flex flex-col text-center w-full mb-14  pt-16">
+      <h1 class="text-3xl  title-font mb-4 text-black tracking-widest mt-10" style="font-family: sans-serif;">DON'T FORGET TO SIGN UP!</h1>
+      <div class="flex  justify-center items-center  mt-5">
+        <div class="bg-gray-500 h-[2px] w-52 mt-2" style="height:2px;"></div>
+        
+        <img  class="w-6  " src="https://img.freepik.com/premium-vector/distress-basic-geometric-shape-design-noise-dispersion-triangle-logo-spray-effect_705778-16.jpg?w=740">
+        <div class="bg-gray-500 h-1 w-52 mt-2" style="height: 2px;"></div>
+      </div>
+    </div>
+    <p class="sec-12-pera">
+      Find out early about all upcoming promotions and 
+      <span> new products releases with </span> <a>our newsletter.</a>
+    </p>
+<div class="sec-12-submit">
+    <input type="gamil" name="gamil" placeholder="ganeshdutt@gamil.com" class="input-sec-12">
+    <button class="sec-12-btn">SUBSCRIBE</button>
+  </div>
+   </section> -->
+
+
+   <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      
+        <div class="flex flex-col text-center w-full mb-14  pt-16">
+          <h1 class="text-3xl  title-font mb-4 text-black tracking-widest mt-10" style="font-family: sans-serif;">DON'T FORGET TO SIGN UP!</h1>
+          <div class="flex  justify-center items-center  mt-5">
+            <div class="bg-gray-500 h-[2px] w-52 mt-2" style="height:2px;"></div>
+            
+            <img  class="w-6  " src="https://img.freepik.com/premium-vector/distress-basic-geometric-shape-design-noise-dispersion-triangle-logo-spray-effect_705778-16.jpg?w=740">
+            <div class="bg-gray-500 h-1 w-52 mt-2" style="height: 2px;"></div>
+          </div>
+        </div>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-center">Find out early about all upcoming promotions and new products releases with
+          our newsletter..</p>
+      </div>
+      <div class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
+        <!-- <div class="relative flex-grow w-full">
+          <label for="full-name" class="leading-7 text-sm text-gray-600">Full Name</label>
+          <input type="text" id="full-name" name="full-name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div> -->
+        <div class="relative flex-grow w-full">
+          <!-- <label for="email" class="leading-7 text-sm text-gray-600">Email</label> -->
+          <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out  text-center" placeholder="ganeshdutt@gmail.com">
+        </div>
+        <button class="text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-black hover:text-white rounded text-lg">SUBSCRIBE</button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- section-13 -->
+  <div class="sec-13-main">
+    <div class="sec-13-left">
+      <img src="http://templates.thememodern.com/architect/images/Header/logo-invest.png" alt="">
+    </div>
+    <div class="sec-13-center">
+      <a href="#">GELLERY</a>
+      <div class="vertical-1"></div>
+      <a href="#">PRODUCT</a>
+      <div class="vertical-1"></div>
+      <a href="#">NEWS</a>
+      <div class="vertical-1"></div>
+      <a href="#">ABOUT</a>
+      <div class="vertical-1"></div>
+      <a href="#">PRIVACY POLICY</a>
+      
+      <a href="#"></a>
+    </div>
+    <div class="sec-13-right"> <br>
+      <i class="fa-brands fa-facebook" style="background-color: #ebcd1e; color:black;"></i>
+      <i class="fa-brands fa-twitter"></i> <br>
+      <i class="fa-brands fa-instagram"></i> <br>
+      <i class="fa-brands fa-linkedin"></i> <br>
+      <i class="fa-brands fa-youtube"></i> 
+
+    </div>
+  </div>
+    <p class="footer">Copyright © 2016 Designed by <span>GaneshDutt</span> . All rights reserved.</p>
+
+  </body>
+</html>
+
